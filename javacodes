@@ -1,0 +1,63 @@
+public class main{ //Here we declared the class
+    
+    public static void main(String[] args){
+        int a = 9; 
+        float b = 2.3f;
+        String name = "mahak";
+        boolean d = true;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(name);
+        System.out.println(d);}}
+
+public class PrimitiveDataTypes {
+    public static void main(String[] args) {
+        
+        // 1. byte - small integer values
+        byte b = 100; 
+        
+        // 2. short - medium integer values
+        short s = 32000;
+        
+        // 3. int - general integer values
+        int i = 123456;
+        
+        // 4. long - very large integer values (needs 'L' at the end)
+        long l = 123456789L;
+        
+        // 5. float - decimal numbers (needs 'f' at the end)
+        float f = 3.14f;
+        
+        // 6. double - decimal numbers with more precision
+        double d = 3.14159265359;
+        
+        // 7. char - single character
+        char c = 'A';
+        
+        // 8. boolean - true/false values
+        boolean flag = true;
+
+        // Printing all values
+        System.out.println("byte value: " + b);
+        System.out.println("short value: " + s);
+        System.out.println("int value: " + i);
+        System.out.println("long value: " + l);
+        System.out.println("float value: " + f);
+        System.out.println("double value: " + d);
+        System.out.println("char value: " + c);
+        System.out.println("boolean value: " + flag);
+    }
+}
+
+
+import java.util.*;
+public class main{ //Here we declared the class
+    
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(a+b);
+        
+        }}
